@@ -1,17 +1,17 @@
 {
-  "name": "Nav designsystem styling lookup",
-  "version": "0.2.0",
-  "description": "Viser designsystem styling brukt på nettsiden",
+  "name": "NAV designsystem styling lookup",
+  "version": "0.4.0",
+  "description": "Viser NAV sitt designsystem sin styling brukt på nettsider",
   "manifest_version": 3,
   "author": "Ken A. Johansen",
   "action": {
-    "default_title": "Nav designsystem styling lookup"
+    "default_title": "NAV designsystem styling lookup"
   },
   "background": {
     "service_worker": "background.js",
     "type": "module"
   },
-  "permissions": ["storage", "activeTab", "scripting", "tabs"],
+  "permissions": ["storage", "activeTab", "scripting"],
   "minimum_chrome_version": "100",
   "icons": {
     "32": "images/aksel-favicon-32.png",
